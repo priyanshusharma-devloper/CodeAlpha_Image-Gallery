@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1> Image Gallery</h1>
+    <nav>
+  <div class="search-bar">
+    <input type="text" placeholder="Search for ideas..." />
+  </div>
+  <div class="nav-buttons">
+    <button>Explore</button>
+    <button>Trending</button>
+    <button>Upload</button>
+  </div>
+</nav>
+
+   
+    <div class="gallery">
+      <img src="images/img-1.png" alt="1" />
+      <img src="images/img-2.png" alt="2" />
+      <img src="images/img-3.png" alt="3" />
+      <img src="images/img-4.png" alt="4" />
+      <img src="images/img-5.png" alt="5" />
+      <img src="images/img-6.png" alt="6" />
+      <img src="images/img-7.png" alt="7" />
+      <img src="images/img-8.png" alt="8" />
+      <img src="images/img-9.png" alt="9" />
+      <img src="images/img-10.png" alt="10" />
+      <img src="images/img-11.png" alt="11" />
+      <img src="images/img-12.png" alt="12" />
+      <img src="images/img-13.png" alt="13" />
+      <img src="images/img-14.png" alt="14" />
+      <img src="images/img-15.png" alt="15" />
+      <img src="images/img-16.png" alt="" />
+      <img src="images/img-17.png" alt="" />
+      <img src="images/img-18.png" alt="" />
+      <img src="images/img-19.png" alt="" />
+      <img src="images/img-20.png" alt="" />
+      <img src="images/img-21.png" alt="" />
+    </div>
+
+  
+    <div class="lightbox" id="lightbox">
+      <span class="close" onclick="closeLightbox()">×</span>
+      <div class="controls">
+        <span onclick="prevImage()">⟨</span>
+        <span onclick="nextImage()">⟩</span>
+      </div>
+      <img id="lightbox-img" src="" />
+      <button id="downloadBtn" class="download-btn">Download Image</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
